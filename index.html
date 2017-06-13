@@ -12,19 +12,33 @@
 	<!-- hangman.jpg courtesy Erica Hargreave under Creative Commons Attribution-NonCommercial 2.0 Generic (CC BY-NC 2.0) license. original image located https://www.flickr.com/photos/ericahargreave/3717552934/ -->
   <div class="container">
 	<div class="row">
-	  <img src="assets/images/hangman.jpg">
-	  <div id="game">
-		<ul>
-		  <li></li id="word">
-		  <li>Guesses Remaining</li>
-		  <li>Letters Guessed</li>
-		  <li></li id="wrongLetters">
-		</ul>
-
+	  <div class="col-md-12">
+		<h1 class="text-center">Hangman</h1>
 	  </div>
 	</div>
-  <div>
-  	
-  </div>
+	<div class="row">
+	  <div class="col-md-2"></div>
+
+	  <div class="col-md-4">
+		<img class="img-responsive" src="assets/images/hangman.jpg">
+		<ul>
+		  <li>Score: 0</li>
+		</ul>
+	  </div>
+
+	  <div class="col-md-4">
+		<div id="game">
+		  <ul>
+		    <li></li id="word">
+		    <li>Guesses Remaining: </li>
+		    <li>Letters Guessed: </li>
+		    <li></li id="wrongLetters">
+		    <li></li>
+		  </ul>
+		</div>
+	  </div>
+
+		<div class="col-md-2"></div>
+	</div>
 </body>
 </html>
