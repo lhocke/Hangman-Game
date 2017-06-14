@@ -27,17 +27,17 @@ function answerCheck(x) {
 			document.getElementById("word").innerHTML = chosenWord.join(" ");
 			pickedLetters.push(x)
 		}
-		else {
-			for (var i = 0; i < pickedLetters.length; i++){
-				if (x === pickedLetters[i]){
-					return
-				}
+		// else {
+		// 	for (var i = 0; i < pickedLetters.length; i++){
+		// 		if (x === pickedLetters[i]){
+		// 			return
+		// 		}
 
 				
 
-			}
-		}
-	// };
+		// 	}
+		// }
+	};
 };
 
 
