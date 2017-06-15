@@ -1,0 +1,12 @@
+body{
+	font-family: 'Mogra', cursive;
+}
+
+ul{
+	font-size: 24px;
+}
+
+#score-side, #word-side{
+	background: #f9f2c3;
+	height: 400px;
+}

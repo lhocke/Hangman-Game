@@ -1,5 +1,5 @@
 
-var wordbase = ["apple", "orange", "class", "facebook", "programming", "berkeley", "rhodesian", "number", "joyous"]
+var wordbase = ["apple", "orange", "class", "facebook", "programming", "berkeley", "rhodesian", "number", "joyous", "insomnia", "coding", "bootcamp", "college", "doctor", "dalek", "hungry", "computer", "quill"]
 var wins = 0;
 
 // start game

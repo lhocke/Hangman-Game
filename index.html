@@ -6,6 +6,7 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
 
 </head>
 <body>
@@ -19,17 +20,21 @@
 	<div class="row">
 	  <div class="col-md-2"></div>
 
-	  <div class="col-md-4 well">
+	  <div class="col-md-4 well" id="score-side">
 		<img class="img-responsive" src="assets/images/hangman.jpg">
+		<br>
+		<br>
 		<ul class="list-unstyled">
 		  <li class="text-center" id="score">Score: 0</li>
 		</ul>
 	  </div>
 
-	  <div class="col-md-4 well">
+	  <div class="col-md-4 well" id="word-side">
 		<div id="game">
 		  <ul class="text-center list-unstyled">
 		    <li id="word"></li>
+		    <br>
+		    <br>
 		    <li id="remaining">Guesses Remaining: 8</li>
 		    <li>Letters Guessed: </li>
 		    <li id="wrongLetters"></li>
