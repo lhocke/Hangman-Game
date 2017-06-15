@@ -21,6 +21,10 @@ function newGame() {
 	for (var i = 0; i < answer.length; i++) {
 		chosenWord.push("_")
 	};
+	// print reset values
+
+	document.getElementById("wrongLetters").innerHTML = wrongLetters
+	document.getElementById("remaining").innerHTML = "Guesses Remaining: " + guessesLeft
 
 	// print underscores for each letter
 	document.getElementById("word").innerHTML = chosenWord.join(" ");
