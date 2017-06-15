@@ -52,10 +52,18 @@ document.onkeyup = function(event){
 	var userGuess = event.key;
 	console.log(userGuess);
 
+
 	var userGuess = userGuess.toLowerCase()
-	var userGuess = userGuess.toString()
+	var userGuess = userGuess.replace(/[\W_0-9]+/, " ")
+	// if (userGuess === /[\w]+/){
+	// 	answerCheck(userGuess)
+	// }
+	// else {
+	// 	alert("Please Enter A Letter.")
+	// }
 
 	answerCheck(userGuess);
+
 
 
 
