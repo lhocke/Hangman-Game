@@ -58,8 +58,9 @@ function newGame() {
 				
 				// loss condition
 				if (guessesLeft === 0){
-					alert("Game Over!")
-					newGame()
+					alert("Game Over! Press any key to restart")
+					document.onkeypress = window.location.reload()
+
 				}
 			}
 		}
